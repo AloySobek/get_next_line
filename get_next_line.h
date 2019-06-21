@@ -6,7 +6,7 @@
 /*   By: vrichese <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/18 14:46:30 by vrichese          #+#    #+#             */
-/*   Updated: 2019/04/25 18:47:10 by vrichese         ###   ########.fr       */
+/*   Updated: 2019/06/21 16:36:44 by vrichese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # define BUFF_SIZE 10
 
-# include "libft/libft.h"
+# include "libft/includes/libft.h"
 
 typedef struct		s_mylist
 {

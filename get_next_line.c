@@ -6,7 +6,7 @@
 /*   By: vrichese <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/22 11:49:19 by vrichese          #+#    #+#             */
-/*   Updated: 2019/04/25 11:59:17 by vrichese         ###   ########.fr       */
+/*   Updated: 2019/06/21 16:29:26 by vrichese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,15 +89,4 @@ int					get_next_line(const int fd, char **line)
 		}
 	free(buf);
 	return (-1);
-}
-
-int main(int argc, char **argv)
-{
-	int fd;
-	char *line;
-
-	fd = open(argv[1], O_RDONLY);
-	while (get_next_line(fd, &line) == 1)
-		printf("%s", line);
-	return (0);
 }
