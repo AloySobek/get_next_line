@@ -6,13 +6,11 @@
 /*   By: vrichese <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/22 11:49:19 by vrichese          #+#    #+#             */
-/*   Updated: 2019/06/21 16:29:26 by vrichese         ###   ########.fr       */
+/*   Updated: 2019/06/27 16:19:14 by vrichese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
-#include <fcntl.h>
 
 int					ft_in_str(char *str, char c)
 {
