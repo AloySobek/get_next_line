@@ -6,14 +6,14 @@
 /*   By: vrichese <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/18 14:46:30 by vrichese          #+#    #+#             */
-/*   Updated: 2019/07/21 21:03:11 by vrichese         ###   ########.fr       */
+/*   Updated: 2019/07/21 21:08:37 by vrichese         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# define BUFF_SIZE 3
+# define BUFF_SIZE 7
 
 # include <fcntl.h>
 # include "libft.h"
